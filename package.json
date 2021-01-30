@@ -5,12 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:api": "jest --testPathPattern api",
     "start": "node app.js",
     "start:dev": "nodemon app.js"
   },
-  "keywords": [
-    "validation"
-  ],
+  "keywords": ["validation"],
   "author": "Simeon Adegbola",
   "license": "ISC",
   "devDependencies": {

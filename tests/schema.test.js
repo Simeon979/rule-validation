@@ -57,7 +57,7 @@ describe("Request Schema Validator", () => {
         data: "damien-marley"
       };
       const { error } = schema.validate(request);
-      expect(error.details[0].message).toEqual("condition is required.");
+      expect(error.details[0].message).toEqual("field is required.");
     });
     test("wrong data type", () => {
       const request = {
